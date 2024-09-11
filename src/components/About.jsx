@@ -25,7 +25,7 @@ const features = [
             <h2 className="text-center text-4xl font-serif tracking-tight text-gray-900 sm:text-5xl">
               ABOUT US
             </h2>
-            <p className="mt-4 text-gray-800 font-serif">
+            <p className="mt-4 text-gray-800 font-sans">
               "At Moreshware Advertisements, we specialize in creating beautiful and personalized designs, along with high-quality printing services, to make your special moments unforgettable.
               Whether it's a birthday celebration, a wedding, or the grand opening of your shop, our custom-made designs are crafted with care and printed with precision to reflect your unique style and vision.
               With a passion for creativity, attention to detail, and top-notch printing, we bring your ideas to life in every project we undertake.
@@ -49,7 +49,7 @@ const features = [
             <h2 className="text-center text-4xl font-serif tracking-tight text-gray-900 sm:text-5xl">
             Service That We Offer
             </h2>
-            <p className="mt-4 text-gray-800 font-serif">
+            <p className="mt-4 text-gray-800 font-sans">
             At  Moreshware Advertisements , we provide a wide range of design and printing services tailored to your needs. 
             From eye-catching graphic design to high-quality paper printing, we specialize in creating unique marriage cards, brand promotion materials, and professional pamphlets.
              Our expertise also extends to designing and printing office essentials like bill books and registers, ensuring your business stands out with exceptional quality.
