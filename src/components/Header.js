@@ -39,7 +39,7 @@ export default function Header() {
               />
               
             </div>
-            <h1 className='text-white text-2xl' >Moreshwar Advertising</h1>
+            <h1 className='text-white text-2xl font-serif' >jayesh Advertising</h1>
             <div className="hidden sm:flex sm:ml-6">
               <div className="flex space-x-4">
                 {/* {navigation.map((item) => (
