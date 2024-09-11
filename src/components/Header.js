@@ -18,7 +18,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -39,7 +39,7 @@ export default function Header() {
               />
               
             </div>
-            <h1 className='text-white text-2xl font-serif' >jayesh Advertising</h1>
+            <h1 className='text-white text-2xl font-serif' >Moreshwar Advertising</h1>
             <div className="hidden sm:flex sm:ml-6">
               <div className="flex space-x-4">
                 {/* {navigation.map((item) => (
