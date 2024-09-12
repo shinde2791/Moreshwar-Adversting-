@@ -32,11 +32,15 @@ export default function Header() {
           </div>
           <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
             <div className="flex items-center">
+              <a href="/">
+
               <img
+              
                 alt="Moreshwar Advertising"
                 src={NavLogo}
                 className="h-8 w-auto"
               />
+              </a>
               
             </div>
             <h1 className='text-white text-2xl font-serif' >Moreshwar Advertising</h1>
@@ -70,7 +74,7 @@ export default function Header() {
                     <div className="py-1">
                       <MenuItem>
                         <a
-                          href="#"
+                          href="marathi_wedding"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Marathi Wedding Cards
@@ -78,7 +82,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="hindi_wedding"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                            Hindi Wedding Cards
@@ -86,7 +90,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="english_wedding"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                             English Wedding Cards
@@ -94,23 +98,23 @@ export default function Header() {
                       </MenuItem>
                       <form action="#" method="POST">
                         <MenuItem>
-                          <button
-                            type="submit"
-                            className="block w-full px-4 py-2 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                          >
-                             Buddhist Wedding Cards
-                          </button>
+                        <a
+                          href="buddhist_wedding"
+                          className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                        >
+                            Buddhist Wedding Cards
+                        </a>
                         </MenuItem>
 
                       </form>
                       <form action="#" method="POST">
                         <MenuItem>
-                          <button
-                            type="submit"
-                            className="block w-full px-4 py-2 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                          >
-                             Your own Wedding Style
-                          </button>
+                        <a
+                          href="Your_ownStyle"
+                          className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                        >
+                           Make your own style 
+                        </a>
                         </MenuItem>
                         
                       </form>
@@ -132,7 +136,7 @@ export default function Header() {
                     <div className="py-1">
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Birthday_marathi"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Birthday Graphic In Marathi
@@ -140,7 +144,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Birthday_english"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Birthday Graphic In English
@@ -148,7 +152,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Own_stylebirthday"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Your own style 
@@ -175,7 +179,7 @@ export default function Header() {
                     <div className="py-1">
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Invitation_card"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                          Invitation card
@@ -183,7 +187,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Commercial_invitation"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                          Commercial Invitation
@@ -191,7 +195,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Puja_invitation"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Puja Invitation
@@ -199,12 +203,12 @@ export default function Header() {
                       </MenuItem>
                       <form action="#" method="POST">
                         <MenuItem>
-                          <button
-                            type="submit"
-                            className="block w-full px-4 py-2 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                          >
-                            Festival Invitation
-                          </button>
+                        <a
+                          href="Festival_invitation"
+                          className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                        >
+                          Festival invitation
+                        </a>
                         </MenuItem>
                       </form>
                     </div>
@@ -226,7 +230,7 @@ export default function Header() {
                     <div className="py-1">
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Commercial_Promotion"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                          Commercial Brand Promotion
@@ -234,7 +238,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Construction"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Constrution Promotion
@@ -242,7 +246,7 @@ export default function Header() {
                       </MenuItem>
                       <MenuItem>
                         <a
-                          href="#"
+                          href="Personal"
                           className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                         >
                           Personal Branding
@@ -250,12 +254,12 @@ export default function Header() {
                       </MenuItem>
                       <form action="#" method="POST">
                         <MenuItem>
-                          <button
-                            type="submit"
-                            className="block w-full px-4 py-2 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                          >
-                           Brands Promotion
-                          </button>
+                        <a
+                          href="Brandpromtion"
+                          className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                        >
+                          Brands Promotion
+                        </a>
                         </MenuItem>
                       </form>
                     </div>
